@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+'Grokking Algorithms'. An illustrated manual for programmers and the curious from Bhargava A. It is a project for practicing the basic algorithms and examples given in this book in the Dart language

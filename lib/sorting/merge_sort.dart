@@ -1,3 +1,4 @@
+// O(nlog(n))
 List<int> mergeSort(List<int> array) {
   if (array.length <= 1) {
     return array;

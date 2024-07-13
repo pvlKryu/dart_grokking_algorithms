@@ -1,3 +1,4 @@
+// O(nlog(n))
 List<int> quickSort(List<int> list) {
   if (list.length <= 1) return list;
 

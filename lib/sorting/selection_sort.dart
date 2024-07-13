@@ -1,4 +1,4 @@
-/// O(N^2)
+/// O(n^2)
 List<int> selectionSort(List<int> nonSortedArray) {
   for (int i = 0; i < nonSortedArray.length - 1; i++) {
     int minIndex = i;

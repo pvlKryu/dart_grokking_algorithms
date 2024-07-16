@@ -4,6 +4,7 @@ import 'package:grokking_agorithms/sorting/bubble_sort.dart';
 import 'package:grokking_agorithms/sorting/merge_sort.dart';
 import 'package:grokking_agorithms/sorting/quick_sort.dart';
 import 'package:grokking_agorithms/sorting/selection_sort.dart';
+import 'package:grokking_agorithms/sorting/tree_sort.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -67,4 +68,7 @@ void main() {
     });
   });
 
+  test('tree sort', () {
+    expect(treeSort([4, 2, 8, 1, 5]), [1, 2, 4, 5, 8]);
+  });
 }
